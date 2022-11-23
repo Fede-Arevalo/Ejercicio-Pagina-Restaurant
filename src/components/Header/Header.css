@@ -1,0 +1,22 @@
+.header {
+  background-color: black;
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 200;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav > a {
+  all: unset;
+  cursor: pointer;
+  color: whitesmoke;
+  padding: 15px;
+  font-size: 18px;
+}
+
+nav > a:hover {
+  color: red;
+}
