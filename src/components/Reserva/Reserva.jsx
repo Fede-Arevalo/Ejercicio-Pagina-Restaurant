@@ -53,11 +53,26 @@ const Reserva = () => {
     <>
       <div className="reserva">
         <div className="wrapReserva">
-          <h1>Contact</h1>
+          <h1>Reserva</h1>
+          <p>Confirma tu reserva a través del formulario</p>
           <form onSubmit={handleSubmit}>
             <input
+              type="datetime-local"
+              placeholder="hora"
+              onChange={handleInputChange}
+              name="hora"
+              value={data.hora}
+            ></input>
+            <input
+              type="number"
+              placeholder="comensales"
+              onChange={handleInputChange}
+              name="comensales"
+              value={data.comensales}
+            ></input>
+            <input
               type="text"
-              placeholder="name"
+              placeholder="nombre"
               onChange={handleInputChange}
               name="name"
               value={data.name}
