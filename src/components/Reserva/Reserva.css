@@ -1,11 +1,11 @@
-.contact {
+.reserva {
   display: flex;
   justify-content: center;
   margin-top: 10px;
   margin-bottom: auto;
 }
 
-.wrapContact {
+.wrapReserva {
   width: 70%;
 }
 

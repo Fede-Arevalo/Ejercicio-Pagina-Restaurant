@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import "./Contact.css";
+import "./Reserva.css";
 import { useNavigate } from "react-router-dom";
 
-const Contact = () => {
+const Reserva = () => {
   let navigate = useNavigate();
   const [btnDisabled, setBtnDisabled] = useState(true);
   const [message, setMessage] = useState("");
@@ -32,14 +32,6 @@ const Contact = () => {
   }, [data]);
 
   const handleInputChange = (event) => {
-    // if (data.name.length + 1 < 3) {
-    //   setMessage("Tu nombre debe tener al menos 3 caracteres");
-    //   setBtnDisabled(true);
-    // } else {
-    //   setMessage(null);
-    //   setBtnDisabled(false);
-    // }
-
     setData({
       ...data,
       [event.target.name]: event.target.value,
@@ -59,8 +51,8 @@ const Contact = () => {
 
   return (
     <>
-      <div className="contact">
-        <div className="wrapContact">
+      <div className="reserva">
+        <div className="wrapReserva">
           <h1>Contact</h1>
           <form onSubmit={handleSubmit}>
             <input
@@ -99,4 +91,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Reserva;

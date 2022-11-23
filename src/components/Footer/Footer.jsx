@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <span>Full Stack Developer</span>
+      <span>RESTAURANTE VALENCIA</span>
     </div>
   );
 };

@@ -1,5 +1,5 @@
 .header {
-  background-color: black;
+  background-color: rgb(66, 49, 49);
   color: whitesmoke;
   font-size: 18px;
   font-weight: 200;
@@ -7,6 +7,11 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+}
+
+.logo{
+  height: 40px;
+  margin-left: 10px;
 }
 
 nav > a {
@@ -18,5 +23,5 @@ nav > a {
 }
 
 nav > a:hover {
-  color: red;
+  color: rgb(172, 124, 10);
 }
